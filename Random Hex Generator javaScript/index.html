@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main-div{
+            position: absolute;
+            width: 550px;
+            height: 150px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        #btnChanger{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border: none;
+            outline: none;
+            height: 35px;
+            width: 85px;
+            border-radius: 5px;
+            background-color: #dfdfdf;
+            border: 1px solid rgb(175, 175, 175);
+            cursor: pointer;
+        }
+
+        #btnChanger:hover{
+            color: #fff;
+            background-color: #18c;
+            border: #262626;
+        }
+        
+        #showHexColor{
+            position: relative;
+            top: 15%;
+            left: 15%;
+            color: #262626;
+            transform: translateY(-50%);
+            font-size: 40px;
+            font-family: calibri;
+        }
+    </style>
+</head>
+<body>
+    <center style="margin-top: 100px;">
+        <h3>Hex Color Code Generator</h3>
+        <h4>Created by <em>-Ismail Khan</em></h4>
+    </center>
+    <div id="main-div">
+        <h1 id="showHexColor">HEX COLOR:</h1>
+        <button id="btnChanger">Click Me!</button>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
